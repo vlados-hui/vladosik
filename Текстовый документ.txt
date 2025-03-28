@@ -1,0 +1,3 @@
+# Для Windows:
+netsh interface ip set dns " Realtek PCIe GbE Family Controller" static 8.8.8.8
+netsh interface ip add dns " Realtek PCIe GbE Family Controller" 8.8.4.4 index=2
